@@ -13,7 +13,6 @@ mkdir /mnt/{boot,home}
 mount /dev/sda5 /mnt/boot
 swapon /dev/sda7
 mount /dev/sda8 /mnt/home
-echo
 echo 'Установка "ArchLinux"'
 pacman -Sy --noconfirm --noprogressbar --quiet reflector
 pacman -S --noconfirm --needed --noprogressbar --quiet reflector
